@@ -1,0 +1,276 @@
+body{
+	font: 16px/1.5 'Open Sans', Arial, sans-serif;
+	color: #fff;
+	min-width: 950px;
+}
+a{
+	text-decoration: none;
+}
+h1,h2{
+	font-weight: 700;
+}
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 44px;
+}
+.wrap{
+	width:950px;
+	padding: 20px 10px;
+}
+
+/*Header-Navigation*/
+.header-style{
+	background: #f7fdfe;
+	text-transform: uppercase;
+}
+.ba-logo{
+	color:#82868f;
+	display: inline-block;
+	float: left;
+	transition: color .5s;
+}
+.ba-logo:hover{
+	color: #0ebfdd;
+}
+ol {
+	list-style: none;
+	padding-top: 10px;
+}
+.ba-nav li{
+	display: inline-block;
+	float:right;
+	margin-right:35px;
+	font-weight : 700;
+}
+.ba-nav li a{
+	color:#8a8e96;
+	text-transform: uppercase;
+	transition: color .5s;
+}
+.ba-nav li:hover a{
+	color:#0ebfdd;
+}
+.button-header{
+	display: inline-block;
+	float:right;
+	color:#f7fdfe;
+	background:#0ebfdd;
+	width: 124px;
+	height: 40px;
+	line-height:40px;
+	border-radius: 20px;
+	transition:all .6s;
+}
+.button-header:hover{
+	color:#0ebfdd;
+	background:#fff;
+	border:1px solid #0ebfdd;
+}
+
+/*Second part - Our Mission*/
+.bg-image{
+	background: url("../img/background1.png") no-repeat;
+	background-size: cover;
+}
+.ba-container1{
+	padding: 410px 150px 85px;
+}
+.ba-container1 span{
+	font-size: 16px;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.ba-container1 p{
+	font-weight: 200;
+	color: #c6ced1;
+	padding-top: 10px;
+}
+
+/*Third part - About*/
+.ba-container2{
+	background:#fff;
+	color: #45494d;
+	padding: 75px 150px 70px;
+}
+.ba-container2 h2{
+	color:#0ebfdd;
+}
+.ba-container2 p{
+	padding-top: 10px;
+}
+
+/*Fourth part - Team*/
+.section3-style{
+	background: #0ebfdd;
+}
+.ba-width{
+	width: 590px;
+	margin:0 auto;
+	text-align: center;
+	padding-top:105px;
+}
+.ba-container3{
+	color:#fff;
+	padding-top: 65px ;
+	padding-bottom: 75px;
+}
+.ba-grid > [class*="ba-width"]{
+	float: left;
+	padding-left: 70px;
+}
+.ba-grid{
+	margin-left: -70px;
+}
+.ba-width>a{
+	display: inline-block;
+	padding-top:115px;
+}
+.ba-width>a:hover{
+	color:#45494d;
+}
+.ba-width-1-3 p{
+	font-style: italic;
+	font-size: 14px;
+	font-weight: 200;
+	color: #c8f1f7;
+}
+.section3-style a{
+	color:#f7fdfe;
+}
+.ba-grid {
+	perspective: 1000;
+}
+.rotate1, .rotate2, .rotate3 {
+	transition: .7s;
+	transform-style: preserve-3d;
+	position: relative;
+	display: inline-block;
+}
+.ba-width-1-3:hover .rotate1, .ba-width-1-3.hover .rotate1,
+.ba-width-1-3:hover .rotate2, .ba-width-1-3.hover .rotate2,
+.ba-width-1-3:hover .rotate3, .ba-width-1-3.hover .rotate3{
+	transform: rotateY(180deg);
+}
+/*Fifth part - Map*/
+.bg-image1{
+	background: url("../img/area.png") no-repeat;
+	background-size: cover;
+}
+.ba-container4{
+	height: 600px;
+	position: relative;
+}
+.address{
+	background: #45494d;
+	width: 168px;
+	padding: 15px 0 15px 18px;
+	position:relative;
+	left:39%;
+	top:27%;
+	border-radius: 3px;
+}
+.address::after {
+	content: '';
+	position: absolute; /* Абсолютное позиционирование */
+	left: 20px; bottom: -16px; /* Положение треугольника */
+	border: 8px solid transparent; /* Прозрачные границы */
+	border-top: 10px solid #45494d; /* Добавляем треугольник */
+}
+.address h4{
+	font-weight: bold;
+}
+.address p{
+	font-size: 13px;
+	font-weight: 300;
+	color: rgba(123, 128, 135, 0.89);
+
+}
+.bg-image1 .fa{
+	color:#55c45f;
+	position: absolute;
+	font-size: 36px;
+}
+.fa-mark1{
+	color: #4eb7cd;
+	top:47.5%;
+	left:41.4%;
+}
+.fa-mark2 {
+	top: 74%;
+	left: 54.7%;
+}
+.fa-mark3{
+	top:27%;
+	left:76.5%;
+}
+
+/*Footer*/
+.footer{
+	background:#45494d;
+}
+.footer div>ul>li{
+	display: inline-block;
+	float:left;
+	padding-right:30px;
+	padding-top: 10px;
+}
+.footer div>a{
+	color:#d7dee4;
+	display: inline-block;
+	float: right;
+	padding-bottom: 19px;
+	padding-left:10px;
+}
+.footer div>ul>li a{
+	color:#d7dee4;
+}
+.footer div>ul>li:hover a{
+	color: #0ebfdd;
+}
+.footer a>div{
+	border:1px solid #d4dae0;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+
+
+}
+.footer a>div:hover{
+	border:1px solid #0ebfdd;
+	color: #0ebfdd;
+}
+.footer i{
+	padding-top: 10px;
+}
+.line{
+	border-bottom:1px solid #5a5e62;
+	margin-bottom: 15px;
+}
+.footer p{
+	float:right;
+
+}
+.footer p span a{
+	color: #73767a;
+}
+.footer p span:hover a{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
